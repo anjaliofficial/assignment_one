@@ -28,7 +28,6 @@ abstract class BankAccount {
     print("Account No: $_accountNumber");
     print("Holder: $_accountHolder");
     print("Balance: \$${_balance.toStringAsFixed(2)}");
-    print("---------------------------");
   }
 
   void updateBalance(double newBalance) {
